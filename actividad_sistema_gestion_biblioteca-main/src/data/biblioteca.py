@@ -1,7 +1,6 @@
 """Libros y categorías almacenadas"""
 from models.libro import Libro
 
-# Lista de libros (usa esta estructura)
 libros: list[Libro] = [
     {"titulo": "Cien años de soledad", "autor": "García Márquez",
         "paginas": 471, "disponible": True},
@@ -12,5 +11,4 @@ libros: list[Libro] = [
     {"titulo": "1984", "autor": "George Orwell", "paginas": 328, "disponible": True}
 ]
 
-# SET con las categorías disponibles
 categorias = {"Ficción", "Ciencia", "Historia", "Poesía"}
